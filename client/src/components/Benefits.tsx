@@ -76,15 +76,6 @@ export default function Benefits() {
           <p className="text-base md:text-lg mb-6 opacity-90 max-w-2xl mx-auto">
             Não perca mais tempo. Comece hoje mesmo e veja os resultados em poucas semanas.
           </p>
-          <button 
-            onClick={() => {
-              const element = document.getElementById('contato');
-              if (element) element.scrollIntoView({ behavior: 'smooth' });
-            }}
-            className="inline-block px-8 py-3 bg-accent-green hover:bg-accent-green-light text-white font-semibold rounded-lg transition-all"
-          >
-            Solicitar Orçamento Agora
-          </button>
         </div>
       </div>
     </section>
