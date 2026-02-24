@@ -70,10 +70,10 @@ export default function Products() {
             return (
               <div 
                 key={product.id}
-                className={`relative rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-2xl flex flex-col ${
+                className={`relative rounded-2xl overflow-hidden transition-all duration-300 shadow-md hover:shadow-lg flex flex-col ${
                   product.highlight 
-                    ? 'md:col-span-1 border-2 border-accent-green shadow-2xl' 
-                    : 'border border-neutral-200 shadow-2xl'
+                    ? 'md:col-span-1 border-2 border-accent-green' 
+                    : 'border border-neutral-200'
                 }`}
               >
                 {/* Badge */}
