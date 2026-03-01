@@ -1,0 +1,14 @@
+[build]
+  command = "pnpm build"
+  functions = "netlify/functions"
+  publish = "dist/public"
+
+[env]
+  [env.production]
+    [env.production.context]
+      environment = { EMAIL_USER = "@netlify", EMAIL_PASSWORD = "@netlify" }
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
