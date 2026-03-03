@@ -84,7 +84,7 @@ export default function CTA() {
                 </div>
                 <div>
                   <p className="font-semibold mb-1 text-neutral-900">Email</p>
-                  <p className="text-neutral-700">idealwebmkt@gmail.com</p>
+                  <p className="text-neutral-700">contato@idealweb.com.br</p>
                 </div>
               </div>
 
@@ -94,7 +94,7 @@ export default function CTA() {
                 </div>
                 <div>
                   <p className="font-semibold mb-1 text-neutral-900">Telefone</p>
-                  <p className="text-neutral-700">(11) 99999-9999</p>
+                  <p className="text-neutral-700">(12) 98867-6652</p>
                 </div>
               </div>
 
@@ -104,7 +104,7 @@ export default function CTA() {
                 </div>
                 <div>
                   <p className="font-semibold mb-1 text-neutral-900">Localização</p>
-                  <p className="text-neutral-700">São Paulo, SP - Brasil</p>
+                  <p className="text-neutral-700">São José dos Campos, SP</p>
                 </div>
               </div>
             </div>
