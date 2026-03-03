@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <section className="min-h-screen bg-white flex items-center pt-20 md:pt-0">
       <div className="container">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center">
           {/* Left Content */}
           <div className="space-y-8">
             <div className="space-y-4">
